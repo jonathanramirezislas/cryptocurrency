@@ -33,7 +33,6 @@ Heroes is a app to find your favorite hero.
 ```bash
   adb devices
 ```
-'
 
 ## 🔧 Built with
 - [React-native](https://reactnative.dev/) 
