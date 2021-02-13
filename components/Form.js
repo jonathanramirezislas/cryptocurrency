@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, TouchableHighlight, Alert } from 'react-native';
-import { Picker } from '@react-native-community/picker';
 import axios from 'axios';
+import {Picker} from '@react-native-picker/picker';
 
 const Form = ({ moneda, criptomoneda, setMoneda, setCriptomoneda, setConsultarAPI}) => {
 

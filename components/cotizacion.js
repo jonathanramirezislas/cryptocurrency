@@ -2,7 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const Cotizacion = ({resultado}) => {
-
+    
+    //Check if we have a result
     if(Object.keys(resultado).length === 0 ) return null;
 
     return ( 
